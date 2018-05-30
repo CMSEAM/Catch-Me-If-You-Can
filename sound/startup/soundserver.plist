@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Disabled</key>
+        <false/>
+        <key>Label</key>
+        <string>org.cern.cms.daqflipper</string>
+        <key>KeepAlive</key>
+        <true/>
+        <key>StandardOutPath</key>
+        <string>soundserver.log</string>
+        <key>StandardErrorPath</key>
+        <string>soundserver.errlog</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>./start.sh</string>
+        </array>
+        <key>WorkingDirectory</key>
+	<string>/Users/daqflipper/sound/software</string>
+        <key>RunAtLoad</key>
+        <true/>
+</dict>
+</plist>
